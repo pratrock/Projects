@@ -1,0 +1,56 @@
+.fx-card {
+  border: 1px solid #ccc;
+  border-radius: 1.5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  flex: 0 0 25%;
+}
+.fx-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fx-card-header-left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.fx-card-header-right {
+  display: flex;
+  justify-content: end;
+}
+.fx-card-rates {
+  display: flex;
+  flex-direction: column;
+}
+
+.base-currency {
+  margin-right: 10px;
+}
+
+.exchange-rate {
+  margin: 0 10px;
+}
+
+.target-currency {
+  margin-left: 10px;
+}
+
+.reload-button {
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #fff;
+  color: green;
+  border-radius: 5rem;
+  border: solid 1px black;
+  padding: 0 4px;
+}
+
+.last-updated {
+  text-align: right;
+  margin-top: 10px;
+}

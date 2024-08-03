@@ -1,0 +1,11 @@
+.currency-main {
+  text-align: center;
+  padding: 1.5rem;
+}
+.currency-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+}

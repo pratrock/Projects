@@ -1,0 +1,110 @@
+.todo-container {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.todo-container.dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.todo-container h1 {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.menu button {
+  padding: 10px;
+  border: 1px solid silver;
+  background-color: transparent;
+  color: var(--text-color-light);
+  cursor: pointer;
+  border-radius: 5rem;
+  width: 100px;
+}
+
+.menu button.active-tab {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+  border-radius: 5rem;
+  width: 100px;
+}
+
+.menu button.active-tab.dark {
+  background-color: var(--primary-color-dark);
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+  color: #888888;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.add-todo-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.add-todo-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 25px);
+}
+
+.add-todo-button {
+  position: absolute;
+  right: 8px;
+  bottom: 1px;
+  padding: 10px;
+  border: none;
+  background-color: var(--background-color-dark);
+  color: #ffffff;
+  border-radius: 5rem;
+  cursor: pointer;
+  width: 60px;
+}
+
+.todo-list li {
+  position: relative;
+  padding-right: 20px;
+}
+
+.delete-button {
+  position: absolute;
+  right: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: red;
+}
