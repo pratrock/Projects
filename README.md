@@ -1,4 +1,4 @@
-# React/Angular Todo and Currency Converter App
+# ReactTodo and Currency Converter App
 
 This project is a web application built using [React](https://reactjs.org/) with TypeScript, featuring two main components: a todo list and a currency converter. The app includes routing, dark/light theme toggling, and basic data persistence in the browser.
 
